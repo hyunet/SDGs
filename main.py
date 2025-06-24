@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 st.set_page_config(page_title=" 경기도 음식물 쓰레기 대시보드", layout="wide")
 
 # 파일 경로를 GitHub 기준 상대경로로 수정
-file_path = '../data/2022~2024 경기도 일별 지자체 음식물 쓰레기 배출내역.csv'
+file_path = 'data/2022~2024 경기도 일별 지자체 음식물 쓰레기 배출내역.csv'
 encodings = ['utf-8-sig', 'utf-8', 'cp949', 'euc-kr', 'ISO-8859-1', 'mac_roman']
 df = None
 for enc in encodings:
